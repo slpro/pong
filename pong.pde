@@ -1,11 +1,18 @@
+PFont f;
+
 void setup(){
   size (600, 300);
-  
   background( 0 );
   
+  // Créer la police
+  f = createFont("Helvetica", 24);
+  textFont(f);
+  textAlign(CENTER,CENTER);
 }
 
 void draw() {
+  text("score 1", 350,10);
+  text("score 2", 250,10);
   
   //////// Joeurs
   
