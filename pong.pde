@@ -21,7 +21,7 @@ void draw() {
   text("score 2", 250,10);
 >>>>>>> FETCH_HEAD
   
-  //////// Joeurs
+  //////// Joueurs
   
   // fill blanc pour les joeurs
   fill( 255 );
