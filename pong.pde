@@ -11,16 +11,13 @@ void setup(){
 }
 
 void draw() {
-<<<<<<< HEAD
-<<<<<<< HEAD
+
   line (width/2, height, width/2, 0);
   stroke(255, 0, 0, 32);
-=======
-=======
+
   text("score 1", 350,10);
   text("score 2", 250,10);
->>>>>>> FETCH_HEAD
-  
+
   //////// Joueurs
   
   // fill blanc pour les joeurs
@@ -32,5 +29,4 @@ void draw() {
   // joueur # 2
   rect( 585, 40, 10, 40);
   
->>>>>>> FETCH_HEAD
 }
