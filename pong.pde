@@ -49,14 +49,11 @@ void draw() {
   
   background (0);
   
-<<<<<<< HEAD
   //Voici la balle -Justine
   fill(255);
   ellipse (300, 150, 10, 10);
 
-=======
   // ligne au milieu - Paolo
->>>>>>> FETCH_HEAD
   line (width/2, height, width/2, 0);
   
   // couleur des contours - Paolo
