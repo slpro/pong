@@ -21,6 +21,10 @@ void setup() {
 
 void draw() {
   background (0);
+  
+  //Voici la balle -Justine
+  fill(255);
+  ellipse (300, 150, 10, 10);
 
   line (width/2, height, width/2, 0);
   stroke(255, 0, 0, 32);
