@@ -1,3 +1,5 @@
+// - Déclaration de variables - //
+// - Toutes les variables doivent être définies ici --//
 PFont f;
 
 Joueurs Jaime = new Joueurs (5, 200);
