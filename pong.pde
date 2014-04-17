@@ -1,12 +1,25 @@
-// - Déclaration de variables - //
+//////////////////////////////////////////////
+// ------- Déclaration de variables ------- //
+//////////////////////////////////////////////
+
+
 // - Toutes les variables doivent être définies ici --//
+
+// variable de type font
 PFont f;
 
+// objets de type Joueur
 Joueurs Jaime = new Joueurs (5, 200);
 Joueurs Paolo = new Joueurs (585, 40);
 
+// objets de type Score
 Score sj1;
 Score sj2;
+
+
+//////////////////////////////////////////////
+// -------          Setup           ------- //
+//////////////////////////////////////////////
 
 void setup() {
   size (600, 300);
@@ -20,6 +33,12 @@ void setup() {
   sj1 = new Score(350, 20, 0);
   sj2 = new Score(250, 20, 0);
 }
+
+
+//////////////////////////////////////////////
+// -------           Draw           ------- //
+//////////////////////////////////////////////
+
 
 void draw() {
   background (0);
